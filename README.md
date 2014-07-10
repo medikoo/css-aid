@@ -1,9 +1,10 @@
 # css-aid
 ## Light, standards focused CSS preprocessor
 
-__css-aid__ doesn't propose any new syntax rules, it just helps with tedious issues that we approach when writing standard CSS. e.g. it expands experimental properties into collection of all vendor prefixes, or resolves CSS variables syntax so it can be used in browsers that do not support it.
+__css-aid__ doesn't propose any new syntax rules, it just helps with tedious issues that we approach when writing standard CSS.  
+e.g. it expands experimental properties into collection containing all vendor prefixes, or resolves CSS variables syntax so it can be used in browsers that do not support it.
 
-How it works? Currently it's just primitive regular expression based search and replace algorithm. As project may expand it's possible we'll move to something that's more bulletproof. Anyway in current form it works well enough.
+How it works? Currently it's just primitive regular expression based search and replace algorithm. As project may expand it's possible it'll be upgraded to use more syntax bulletproof solution
 
 ### Installation
 
@@ -16,7 +17,7 @@ var cssAid = require('css-aid');
 var processedCss = cssAid(plainCSS);
 ```
 
-Optionally you can manually decide which rules (see [list below](#Rules)) you want to apply:
+Optionally you can manually decide which rules (see [list below](#rules)) you want to apply:
 
 ```javascript
 // Apply only 'border-radius' and 'variables' rules
