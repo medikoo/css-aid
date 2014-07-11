@@ -3,7 +3,7 @@
 var forEach      = require('es5-ext/object/for-each')
   , reEscape     = require('es5-ext/reg-exp/escape')
 
-  , rootRuleRe = /((?:^|\})\s*)::root\s*\{([^\}]+\}\s*)/g
+  , rootRuleRe = /((?:^|\}|\/)\s*)::root\s*\{([^\}]+\}\s*)/g
   , varsDefineRe = /\s*--([a-z0-9\-]+)\s*:\s*([^;\}]+)(?:;|\})/g
 
   , create = Object.create;
