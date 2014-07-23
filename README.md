@@ -40,14 +40,21 @@ with:
 Replaces:
 `border-radius: <value>`
 with:
-`-webkit-border-radius: <value>; moz-border-radius: <value>; khtml-border-radius: <value>; border-radius: <value>`
+`-webkit-border-radius: <value>; -moz-border-radius: <value>; -khtml-border-radius: <value>; border-radius: <value>`
 
 #### box-shadow
 
 Replaces:
 `box-shadow: <value>`
 with:
-`-webkit-box-shadow: <value>; moz-box-shadow: <value>; box-shadow: <value>`
+`-moz-box-shadow: <value>; -webkit-box-shadow: <value>; box-shadow: <value>`
+
+#### box-sizing
+
+Replaces:
+`box-sizing: <value>`
+with:
+`-moz-box-sizing: <value>; -webkit-box-sizing: <value>; box-sizing: <value>`
 
 #### flex-wrap
 

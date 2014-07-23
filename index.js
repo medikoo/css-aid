@@ -8,6 +8,7 @@ allRules = [
 	require('./rules/align-self'),
 	require('./rules/border-radius'),
 	require('./rules/box-shadow'),
+	require('./rules/box-sizing'),
 	require('./rules/flex-wrap'),
 	require('./rules/flex'),
 	require('./rules/justify-content'),
