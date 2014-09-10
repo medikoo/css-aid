@@ -15,6 +15,7 @@ allRules = [
 	require('./rules/transform'),
 	require('./rules/transition'),
 	require('./rules/transition-delay'),
+	require('./rules/transition-duration'),
 	require('./rules/variables')
 ];
 
