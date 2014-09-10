@@ -12,6 +12,7 @@ allRules = [
 	require('./rules/flex-wrap'),
 	require('./rules/flex'),
 	require('./rules/justify-content'),
+	require('./rules/transform'),
 	require('./rules/variables')
 ];
 
